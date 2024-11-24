@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="row" align="center" style="background-image:url('h7.jpg')">
+        <br><br>
+        <h1 align="center" class="magnet-target text-target">CONTACT US </h1>
+        <table align="center" border="5" width="600px" height="400px">
+            <tr>
+                <td align="center"><b class="magnet-target text-target">NAME</td>
+                <td align="center"><b><input type="text" placeholder="Enter Your Name" name="name" class="text magnet-target text-target" required></td>
+            </tr>
+            <tr>
+                <td align="center"><b class="magnet-target text-target">ADDRESS</td>
+                <td align="center"><b><input type="text" placeholder="Your Address" class="text magnet-target text-target" required></td>
+            </tr>
+            <tr>
+                <td align="center"><b class="magnet-target text-target">PHONE NO.</td>
+                <td align="center"><b><input type="number" placeholder="Enter Phone Number" class="text magnet-target text-target" required></td>
+            </tr>
+            <tr>
+                <td align="center"><b class="magnet-target text-target">EMAIL</td>
+                <td align="center"><b><input type="email" placeholder="Enter Email id" class="text magnet-target text-target" required></td>
+            </tr>
+            <tr>
+                <td align="center"><b class="magnet-target text-target">ENTER YOUR MESSAGE</td>
+                <td align="center"><b><textarea class="text magnet-target text-target" placeholder="Enter your message" required></textarea></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="radio"> <b class="magnet-target text-target" aria-required="true"> CHECK ALL DETAILS</b> </td>
+                <td align="center" style=" margin-left: 200px;"><button class="text magnet-target text-target">SUBMIT</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="row2">
+        <br><br><br>
+        <center>
+            <h1 class="contact1 magnet-target text-target">Contact</h1>
+        </center>
+        <center>
+            <h2 class="contact2">Contact Me</h2>
+        </center>
+        <center>
+            <p class="contact3">Below are the details to reach out to me!</p>
+        </center>
+        <div class="col">
+            <div class="box">
+                <center><img src="address.jpg" height="50px " width="50px" class="icon magnet-target text-target"></center>
+                <center>
+                    <h3 class="address magnet-target text-target">ADDRESS</h3>
+                </center>
+                <center>
+                    <p class="add">AZAMGARH UTTER PRADESH</p>
+                </center>
+            </div>
+            <div class="box">
+                <center><img src="call.avif" height="50px " width="50px" class="icon magnet-target text-target"></center>
+                <center>
+                    <h3 class="address magnet-target text-target">CONTACT</h3>
+                </center>
+                <center>
+                    <p class="add">+91 9795181145</p>
+                </center>
+            </div>
+            <div class="box">
+                <center><img src="email.avif" height="50px " width="50px" class="icon magnet-target text-target"></center>
+                <center>
+                    <h3 class="address magnet-target text-target">EMAIL</h3>
+                </center>
+                <center>
+                    <p class="add">abhimaurya9795@gmail.com</p>
+                </center>
+            </div>
+            <div class="box">
+                <center><img src="linkedin.avif" height="50px " width="50px" class="icon magnet-target text-target"></center>
+                <center>
+                    <h3 class="address magnet-target text-target">LINKEDIN</h3>
+                </center>
+                <center>
+                    <p class="add">https://www.linkedin.com/in/abhishek-maurya-297848304/</p>
+                </center>
+            </div>
+        </div>
+        <div class="last">
+            <h1 style="font-size: 20px;">Follow me on</h1>
+            <h4>
+                <a href="https://www.facebook.com/profile.php?id=100065776128538"><i class="fa-brands fa-facebook magnet-target text-target"></i></a>
+                <a href="https://www.instagram.com/abhishek_108_/"><i class="fa-brands fa-instagram magnet-target text-target"></i></a>
+                <a href="https://www.linkedin.com/in/abhishek-maurya-297848304/"><i class="fa-brands fa-linkedin-in magnet-target text-target"></i></a>
+                <a href="https://x.com/Abhishe68680154"><i class="fa-brands fa-twitter magnet-target text-target"></i></a>
+            </h4>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
